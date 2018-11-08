@@ -1,0 +1,20 @@
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/lora_server?useUnicode=true&characterEncoding=UTF-8
+#    username: root
+#    password: lyh326
+#  jpa:
+#    show-sql: false
+#    hibernate:
+#      ddl-auto: update
+#    properties:
+#      hibernate:
+#        format_sql: true
+# 服务器配置
+#loraServer:
+#  connection:
+#    port:9999
+#    redis-address:
+#    redis-port:
+java -Dio.netty.leakDetection.level=advanced
